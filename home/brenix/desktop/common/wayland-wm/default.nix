@@ -1,8 +1,8 @@
 { pkgs, ... }:
 {
   imports = [
+    ./foot.nix
     ./mako.nix
-    ./qutebrowser.nix
     ./waybar.nix
   ];
 
@@ -11,6 +11,7 @@
     slurp
     wf-recorder
     wl-clipboard
+    wlr-randr
     ydotool
   ];
 
